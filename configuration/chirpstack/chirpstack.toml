@@ -86,7 +86,7 @@
 [api]
 
   # interface:port to bind the API interface to.
-  bind="0.0.0.0:8080"
+  bind="[::]:8080"
 
   # Secret.
   #
@@ -94,7 +94,7 @@
   # is never exposed. Changing this secret will invalidate all login and API
   # tokens. The following command can be used to generate a random secret:
   #   openssl rand -base64 32
-  secret="you-must-replace-this"
+  secret="you-must-replace-this-asap-bg"
 
 
 [integration]
