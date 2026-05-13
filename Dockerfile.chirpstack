@@ -1,0 +1,3 @@
+FROM chirpstack/chirpstack:4
+COPY configuration/chirpstack/ /etc/chirpstack/
+CMD ["chirpstack", "-c", "/etc/chirpstack"]
