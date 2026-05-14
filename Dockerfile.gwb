@@ -1,3 +1,3 @@
 FROM chirpstack/chirpstack-gateway-bridge:4
 COPY configuration/chirpstack-gateway-bridge/ /etc/chirpstack-gateway-bridge/
-CMD ["chirpstack-gateway-bridge", "-c", "/etc/chirpstack-gateway-bridge/chirpstack-gateway-bridge-basicstation-eu868.toml"]
+CMD ["-c", "/etc/chirpstack-gateway-bridge/chirpstack-gateway-bridge-basicstation-eu868.toml"]
